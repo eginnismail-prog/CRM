@@ -1,0 +1,17 @@
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.csproj.AssemblyReference.cache
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.AssemblyInfoInputs.cache
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.AssemblyInfo.cs
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\bin\Debug\net10.0\CRM.DataAccess.deps.json
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\bin\Debug\net10.0\CRM.DataAccess.runtimeconfig.json
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\bin\Debug\net10.0\CRM.DataAccess.dll
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\bin\Debug\net10.0\CRM.DataAccess.pdb
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\bin\Debug\net10.0\CRM.Entities.dll
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\bin\Debug\net10.0\CRM.Entities.pdb
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.Data.D9CECC1D.Up2Date
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.dll
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\refint\CRM.DataAccess.dll
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.pdb
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.genruntimeconfig.cache
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\ref\CRM.DataAccess.dll

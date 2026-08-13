@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="CRM.API/CRM.API.csproj" />
+  <Project Path="CRM.Business/CRM.Business.csproj" />
+  <Project Path="CRM.Common/CRM.Common.csproj" />
+  <Project Path="CRM.DataAccess/CRM.DataAccess.csproj" />
+  <Project Path="CRM.DTO/CRM.DTO.csproj" />
+  <Project Path="CRM.Entities/CRM.Entities.csproj" />
+  <Project Path="CRM.Web/CRM.Web.csproj" />
+</Solution>

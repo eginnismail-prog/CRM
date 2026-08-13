@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRM.DataAccess\CRM.DataAccess.csproj" />
+    <ProjectReference Include="..\CRM.DTO\CRM.DTO.csproj" />
+    <ProjectReference Include="..\CRM.Entities\CRM.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\controllers\\uruncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\controllers\\uruncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\urunservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\urunservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\firmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\firmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\ifirmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\ifirmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\ikategoriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\ikategoriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\iurunservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\iurunservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\imusteriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\imusteriservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\crm.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\crm.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\urunrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\urunrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\iurunrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\iurunrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dto\\urundto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|solutionrelative:crm.dto\\urundto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dto\\crm.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|solutionrelative:crm.dto\\crm.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.entities\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|solutionrelative:crm.entities\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.entities\\crm.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|solutionrelative:crm.entities\\crm.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\controllers\\kategoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\controllers\\kategoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.business\\crm.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17BDC69D-2421-9817-8200-FBBB567DBAB3}|CRM.Business\\CRM.Business.csproj|solutionrelative:crm.business\\crm.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\kategorirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\kategorirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\ikategorirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\ikategorirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dto\\kategoridto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|solutionrelative:crm.dto\\kategoridto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.entities\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|solutionrelative:crm.entities\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\controllers\\firmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\controllers\\firmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\firmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\firmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\ifirmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\ifirmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dto\\firmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|solutionrelative:crm.dto\\firmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.entities\\firma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|solutionrelative:crm.entities\\firma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\musterirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\musterirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dataaccess\\imusterirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29166E4-1497-066E-A0FF-32EF09910A43}|CRM.DataAccess\\CRM.DataAccess.csproj|solutionrelative:crm.dataaccess\\imusterirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{158BDAD4-A5A3-89AE-081F-CBF4E6888E38}|CRM.Web\\CRM.Web.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{158BDAD4-A5A3-89AE-081F-CBF4E6888E38}|CRM.Web\\CRM.Web.csproj|solutionrelative:crm.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{158BDAD4-A5A3-89AE-081F-CBF4E6888E38}|CRM.Web\\CRM.Web.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.web\\crm.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{158BDAD4-A5A3-89AE-081F-CBF4E6888E38}|CRM.Web\\CRM.Web.csproj|solutionrelative:crm.web\\crm.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{158BDAD4-A5A3-89AE-081F-CBF4E6888E38}|CRM.Web\\CRM.Web.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{158BDAD4-A5A3-89AE-081F-CBF4E6888E38}|CRM.Web\\CRM.Web.csproj|solutionrelative:crm.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.api\\crm.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5E61DFB-1D0F-412F-B99A-CA651EA246C1}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\crm.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.dto\\musteridto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A8C6786-FFEA-C660-51CC-D91CCB97D9ED}|CRM.DTO\\CRM.DTO.csproj|solutionrelative:crm.dto\\musteridto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|c:\\users\\egin\\source\\repos\\crmproject\\crm.entities\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3A1023-5DC2-2521-8747-5C67AA801386}|CRM.Entities\\CRM.Entities.csproj|solutionrelative:crm.entities\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UrunController.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\UrunController.cs",
+              "RelativeDocumentMoniker": "CRM.API\\Controllers\\UrunController.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\UrunController.cs",
+              "RelativeToolTip": "CRM.API\\Controllers\\UrunController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T08:01:28.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUrunService.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IUrunService.cs",
+              "RelativeDocumentMoniker": "CRM.Business\\IUrunService.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IUrunService.cs",
+              "RelativeToolTip": "CRM.Business\\IUrunService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:52:59.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirmaService.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\FirmaService.cs",
+              "RelativeDocumentMoniker": "CRM.Business\\FirmaService.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\FirmaService.cs",
+              "RelativeToolTip": "CRM.Business\\FirmaService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:24:37.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IKategoriService.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IKategoriService.cs",
+              "RelativeDocumentMoniker": "CRM.Business\\IKategoriService.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IKategoriService.cs",
+              "RelativeToolTip": "CRM.Business\\IKategoriService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:36:59.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMusteriService.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IMusteriService.cs",
+              "RelativeDocumentMoniker": "CRM.Business\\IMusteriService.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IMusteriService.cs",
+              "RelativeToolTip": "CRM.Business\\IMusteriService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T06:21:34.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UrunService.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\UrunService.cs",
+              "RelativeDocumentMoniker": "CRM.Business\\UrunService.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\UrunService.cs",
+              "RelativeToolTip": "CRM.Business\\UrunService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:46:44.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFirmaService.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IFirmaService.cs",
+              "RelativeDocumentMoniker": "CRM.Business\\IFirmaService.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\IFirmaService.cs",
+              "RelativeToolTip": "CRM.Business\\IFirmaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:24:09.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UrunDto.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\UrunDto.cs",
+              "RelativeDocumentMoniker": "CRM.DTO\\UrunDto.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\UrunDto.cs",
+              "RelativeToolTip": "CRM.DTO\\UrunDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:44:25.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUrunRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IUrunRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\IUrunRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IUrunRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\IUrunRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:45:48.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UrunRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\UrunRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\UrunRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\UrunRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\UrunRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:46:15.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Program.cs",
+              "RelativeDocumentMoniker": "CRM.API\\Program.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Program.cs",
+              "RelativeToolTip": "CRM.API\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T11:45:52.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "CRM.DataAccess\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T08:58:56.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CRM.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\CRM.DataAccess.csproj",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\CRM.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\CRM.DataAccess.csproj",
+              "RelativeToolTip": "CRM.DataAccess\\CRM.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T08:52:32.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Urun.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Urun.cs",
+              "RelativeDocumentMoniker": "CRM.Entities\\Urun.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Urun.cs",
+              "RelativeToolTip": "CRM.Entities\\Urun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:43:56.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CRM.DTO.csproj",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\CRM.DTO.csproj",
+              "RelativeDocumentMoniker": "CRM.DTO\\CRM.DTO.csproj",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\CRM.DTO.csproj",
+              "RelativeToolTip": "CRM.DTO\\CRM.DTO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T08:52:40.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CRM.Entities.csproj",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\CRM.Entities.csproj",
+              "RelativeDocumentMoniker": "CRM.Entities\\CRM.Entities.csproj",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\CRM.Entities.csproj",
+              "RelativeToolTip": "CRM.Entities\\CRM.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T08:52:34.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KategoriController.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\KategoriController.cs",
+              "RelativeDocumentMoniker": "CRM.API\\Controllers\\KategoriController.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\KategoriController.cs",
+              "RelativeToolTip": "CRM.API\\Controllers\\KategoriController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:38:06.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KategoriRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\KategoriRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\KategoriRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\KategoriRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\KategoriRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:36:33.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CRM.Business.csproj",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\CRM.Business.csproj",
+              "RelativeDocumentMoniker": "CRM.Business\\CRM.Business.csproj",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Business\\CRM.Business.csproj",
+              "RelativeToolTip": "CRM.Business\\CRM.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T08:36:58.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IKategoriRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IKategoriRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\IKategoriRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IKategoriRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\IKategoriRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:36:01.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "KategoriDto.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\KategoriDto.cs",
+              "RelativeDocumentMoniker": "CRM.DTO\\KategoriDto.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\KategoriDto.cs",
+              "RelativeToolTip": "CRM.DTO\\KategoriDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:34:44.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Kategori.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Kategori.cs",
+              "RelativeDocumentMoniker": "CRM.Entities\\Kategori.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Kategori.cs",
+              "RelativeToolTip": "CRM.Entities\\Kategori.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:33:57.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FirmaController.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\FirmaController.cs",
+              "RelativeDocumentMoniker": "CRM.API\\Controllers\\FirmaController.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\FirmaController.cs",
+              "RelativeToolTip": "CRM.API\\Controllers\\FirmaController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:25:44.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\AppDbContextFactory.cs",
+              "RelativeToolTip": "CRM.DataAccess\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:12:48.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FirmaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\FirmaRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\FirmaRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\FirmaRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\FirmaRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:17:20.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IFirmaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IFirmaRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\IFirmaRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IFirmaRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\IFirmaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:16:41.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FirmaDto.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\FirmaDto.cs",
+              "RelativeDocumentMoniker": "CRM.DTO\\FirmaDto.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\FirmaDto.cs",
+              "RelativeToolTip": "CRM.DTO\\FirmaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:14:05.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Firma.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Firma.cs",
+              "RelativeDocumentMoniker": "CRM.Entities\\Firma.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Firma.cs",
+              "RelativeToolTip": "CRM.Entities\\Firma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T07:13:25.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CRM.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\appsettings.json",
+              "RelativeToolTip": "CRM.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-13T06:58:25.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MusteriController.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\MusteriController.cs",
+              "RelativeDocumentMoniker": "CRM.API\\Controllers\\MusteriController.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\Controllers\\MusteriController.cs",
+              "RelativeToolTip": "CRM.API\\Controllers\\MusteriController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T06:36:15.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Web\\Program.cs",
+              "RelativeDocumentMoniker": "CRM.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Web\\Program.cs",
+              "RelativeToolTip": "CRM.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T06:25:50.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CRM.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Web\\CRM.Web.csproj",
+              "RelativeDocumentMoniker": "CRM.Web\\CRM.Web.csproj",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Web\\CRM.Web.csproj",
+              "RelativeToolTip": "CRM.Web\\CRM.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T08:39:37.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MusteriRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\MusteriRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\MusteriRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\MusteriRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\MusteriRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T06:16:31.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IMusteriRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IMusteriRepository.cs",
+              "RelativeDocumentMoniker": "CRM.DataAccess\\IMusteriRepository.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DataAccess\\IMusteriRepository.cs",
+              "RelativeToolTip": "CRM.DataAccess\\IMusteriRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T06:15:44.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CRM.API.csproj",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\CRM.API.csproj",
+              "RelativeDocumentMoniker": "CRM.API\\CRM.API.csproj",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.API\\CRM.API.csproj",
+              "RelativeToolTip": "CRM.API\\CRM.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-12T09:02:37.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "CRM.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Web\\appsettings.json",
+              "RelativeToolTip": "CRM.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T09:03:30.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MusteriDto.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\MusteriDto.cs",
+              "RelativeDocumentMoniker": "CRM.DTO\\MusteriDto.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.DTO\\MusteriDto.cs",
+              "RelativeToolTip": "CRM.DTO\\MusteriDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T08:53:35.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Musteri.cs",
+              "DocumentMoniker": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Musteri.cs",
+              "RelativeDocumentMoniker": "CRM.Entities\\Musteri.cs",
+              "ToolTip": "C:\\Users\\EGIN\\source\\repos\\CRMProject\\CRM.Entities\\Musteri.cs",
+              "RelativeToolTip": "CRM.Entities\\Musteri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T08:44:29.667Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
