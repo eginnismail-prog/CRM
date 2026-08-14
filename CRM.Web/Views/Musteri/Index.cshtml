@@ -1,0 +1,31 @@
+﻿@model List<CRM.DTO.MusteriDto>
+
+@{
+    ViewData["Title"] = "Müşteriler";
+}
+
+<h2>Müşteri Listesi</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Telefon</th>
+            <th>Email</th>
+            <th>Durum</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var musteri in Model)
+        {
+            <tr>
+                <td>@musteri.Ad</td>
+                <td>@musteri.Soyad</td>
+                <td>@musteri.Telefon</td>
+                <td>@musteri.Email</td>
+                <td>@musteri.MusteriDurumu</td>
+            </tr>
+        }
+    </tbody>
+</table>
