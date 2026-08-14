@@ -1,0 +1,56 @@
+﻿@model CRM.DTO.TeklifDto
+
+@{
+    ViewData["Title"] = "Yeni Teklif";
+}
+
+<h2>Yeni Teklif Ekle</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Müşteri</label>
+        <select asp-for="MusteriId" class="form-control">
+            @foreach (var musteri in (List<CRM.DTO.MusteriDto>)ViewBag.Musteriler)
+            {
+                <option value="@musteri.MusteriId">@musteri.Ad @musteri.Soyad</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Fırsat (opsiyonel)</label>
+        <select asp-for="FirsatId" class="form-control">
+            <option value="">-- Seçiniz --</option>
+            @foreach (var firsat in (List<CRM.DTO.FirsatDto>)ViewBag.Firsatlar)
+            {
+                <option value="@firsat.FirsatId">@firsat.FirsatBasligi</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Teklif No</label>
+        <input asp-for="TeklifNo" class="form-control" placeholder="TKL-2026-001" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Teklif Tarihi</label>
+        <input asp-for="TeklifTarihi" type="date" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Geçerlilik Tarihi (opsiyonel)</label>
+        <input asp-for="GecerlilikTarihi" type="date" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Toplam Tutar</label>
+        <input asp-for="ToplamTutar" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Teklif Durumu</label>
+        <select asp-for="TeklifDurumu" class="form-control">
+            <option value="Taslak">Taslak</option>
+            <option value="Gönderildi">Gönderildi</option>
+            <option value="Onaylandı">Onaylandı</option>
+            <option value="Reddedildi">Reddedildi</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
