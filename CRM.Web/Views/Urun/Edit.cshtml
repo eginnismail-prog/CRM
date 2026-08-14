@@ -1,0 +1,41 @@
+﻿@model CRM.DTO.UrunDto
+
+@{
+    ViewData["Title"] = "Ürün Düzenle";
+}
+
+<h2>Ürün Düzenle</h2>
+
+<form asp-action="Edit" asp-route-id="@Model.UrunId" method="post">
+    <div class="mb-3">
+        <label class="form-label">Kategori</label>
+        <select asp-for="KategoriId" class="form-control">
+            @foreach (var kategori in (List<CRM.DTO.KategoriDto>)ViewBag.Kategoriler)
+            {
+                <option value="@kategori.KategoriId">@kategori.KategoriAdi</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ürün Adı</label>
+        <input asp-for="UrunAdi" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Açıklama</label>
+        <input asp-for="Aciklama" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Birim Fiyat</label>
+        <input asp-for="BirimFiyat" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">KDV Oranı</label>
+        <input asp-for="KdvOrani" class="form-control" />
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="AktifMi" class="form-check-input" />
+        <label class="form-check-label">Aktif Mi</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
