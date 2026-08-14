@@ -38,6 +38,8 @@ builder.Services.AddScoped<IDestekTalebiRepository, DestekTalebiRepository>();
 builder.Services.AddScoped<IDestekTalebiService, DestekTalebiService>();
 builder.Services.AddScoped<INotRepository, NotRepository>();
 builder.Services.AddScoped<INotService, NotService>();
+builder.Services.AddScoped<ITeklifKalemiRepository, TeklifKalemiRepository>();
+builder.Services.AddScoped<ITeklifKalemiService, TeklifKalemiService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -26,6 +26,7 @@ namespace CRM.DataAccess
         public DbSet<Satis> Satislar { get; set; }
         public DbSet<DestekTalebi> DestekTalepleri { get; set; }
         public DbSet<Not> Notlar { get; set; }
+        public DbSet<TeklifKalemi> TeklifKalemleri { get; set; }
     }
 
 
