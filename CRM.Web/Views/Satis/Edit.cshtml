@@ -1,0 +1,50 @@
+﻿@model CRM.DTO.SatisDto
+
+@{
+    ViewData["Title"] = "Satış Düzenle";
+}
+
+<h2>Satış Düzenle</h2>
+
+<form asp-action="Edit" asp-route-id="@Model.SatisId" method="post">
+    <div class="mb-3">
+        <label class="form-label">Teklif</label>
+        <select asp-for="TeklifId" class="form-control">
+            @foreach (var teklif in (List<CRM.DTO.TeklifDto>)ViewBag.Teklifler)
+            {
+                <option value="@teklif.TeklifId">@teklif.TeklifNo</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Müşteri</label>
+        <select asp-for="MusteriId" class="form-control">
+            @foreach (var musteri in (List<CRM.DTO.MusteriDto>)ViewBag.Musteriler)
+            {
+                <option value="@musteri.MusteriId">@musteri.Ad @musteri.Soyad</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Satış Tarihi</label>
+        <input asp-for="SatisTarihi" type="date" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Toplam Tutar</label>
+        <input asp-for="ToplamTutar" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ödeme Durumu</label>
+        <select asp-for="OdemeDurumu" class="form-control">
+            <option value="Bekliyor">Bekliyor</option>
+            <option value="Kısmi">Kısmi</option>
+            <option value="Ödendi">Ödendi</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Açıklama</label>
+        <input asp-for="Aciklama" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
