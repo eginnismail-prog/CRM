@@ -1,0 +1,70 @@
+﻿@model CRM.DTO.AktiviteDto
+
+@{
+    ViewData["Title"] = "Yeni Aktivite";
+}
+
+<h2>Yeni Aktivite Ekle</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Müşteri (opsiyonel)</label>
+        <select asp-for="MusteriId" class="form-control">
+            <option value="">-- Seçiniz --</option>
+            @foreach (var musteri in (List<CRM.DTO.MusteriDto>)ViewBag.Musteriler)
+            {
+                <option value="@musteri.MusteriId">@musteri.Ad @musteri.Soyad</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Fırsat (opsiyonel)</label>
+        <select asp-for="FirsatId" class="form-control">
+            <option value="">-- Seçiniz --</option>
+            @foreach (var firsat in (List<CRM.DTO.FirsatDto>)ViewBag.Firsatlar)
+            {
+                <option value="@firsat.FirsatId">@firsat.FirsatBasligi</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Aktivite Tipi</label>
+        <select asp-for="AktiviteTipi" class="form-control">
+            <option value="Telefon">Telefon</option>
+            <option value="Toplantı">Toplantı</option>
+            <option value="E-posta">E-posta</option>
+            <option value="Görev">Görev</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Konu</label>
+        <input asp-for="Konu" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Açıklama</label>
+        <input asp-for="Aciklama" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Aktivite Durumu</label>
+        <select asp-for="AktiviteDurumu" class="form-control">
+            <option value="Bekliyor">Bekliyor</option>
+            <option value="Tamamlandı">Tamamlandı</option>
+            <option value="İptal">İptal</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Aktivite Tarihi</label>
+        <input asp-for="AktiviteTarihi" type="date" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Oluşturan Kullanıcı</label>
+        <select asp-for="OlusturanKullaniciId" class="form-control">
+            @foreach (var kullanici in (List<CRM.DTO.KullaniciDto>)ViewBag.Kullanicilar)
+            {
+                <option value="@kullanici.KullaniciId">@kullanici.Ad @kullanici.Soyad</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
