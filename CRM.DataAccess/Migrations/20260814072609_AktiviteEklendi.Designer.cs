@@ -4,6 +4,7 @@ using CRM.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CRM.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260814072609_AktiviteEklendi")]
+    partial class AktiviteEklendi
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -60,44 +63,6 @@ namespace CRM.DataAccess.Migrations
                     b.HasKey("AktiviteId");
 
                     b.ToTable("Aktiviteler");
-                });
-
-            modelBuilder.Entity("CRM.Entities.DestekTalebi", b =>
-                {
-                    b.Property<int>("TalepId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TalepId"));
-
-                    b.Property<string>("Aciklama")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("AtananKullaniciId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Durum")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Konu")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MusteriId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("OlusturmaTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Oncelik")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("TalepId");
-
-                    b.ToTable("DestekTalepleri");
                 });
 
             modelBuilder.Entity("CRM.Entities.Firma", b =>
@@ -285,41 +250,6 @@ namespace CRM.DataAccess.Migrations
                     b.ToTable("Musteriler");
                 });
 
-            modelBuilder.Entity("CRM.Entities.Not", b =>
-                {
-                    b.Property<int>("NotId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NotId"));
-
-                    b.Property<int?>("FirmaId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("FirsatId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("MusteriId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("NotBasligi")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NotIcerigi")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("OlusturanKullaniciId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("OlusturmaTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("NotId");
-
-                    b.ToTable("Notlar");
-                });
-
             modelBuilder.Entity("CRM.Entities.Rol", b =>
                 {
                     b.Property<int>("RolId")
@@ -338,74 +268,6 @@ namespace CRM.DataAccess.Migrations
                     b.HasKey("RolId");
 
                     b.ToTable("Roller");
-                });
-
-            modelBuilder.Entity("CRM.Entities.Satis", b =>
-                {
-                    b.Property<int>("SatisId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SatisId"));
-
-                    b.Property<string>("Aciklama")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MusteriId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("OdemeDurumu")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("SatisTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("TeklifId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("ToplamTutar")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("SatisId");
-
-                    b.ToTable("Satislar");
-                });
-
-            modelBuilder.Entity("CRM.Entities.Teklif", b =>
-                {
-                    b.Property<int>("TeklifId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TeklifId"));
-
-                    b.Property<int?>("FirsatId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("GecerlilikTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("MusteriId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("TeklifDurumu")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TeklifNo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("TeklifTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("ToplamTutar")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("TeklifId");
-
-                    b.ToTable("Teklifler");
                 });
 
             modelBuilder.Entity("CRM.Entities.Urun", b =>

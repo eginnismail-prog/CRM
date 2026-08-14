@@ -15,3 +15,4 @@ C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\refint\CR
 C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.pdb
 C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.genruntimeconfig.cache
 C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\ref\CRM.DataAccess.dll
+C:\Users\EGIN\source\repos\CRMProject\CRM.DataAccess\obj\Debug\net10.0\CRM.DataAccess.sourcelink.json
