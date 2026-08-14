@@ -1,0 +1,36 @@
+﻿@model CRM.DTO.FirmaDto
+
+@{
+    ViewData["Title"] = "Firma Düzenle";
+}
+
+<h2>Firma Düzenle</h2>
+
+<form asp-action="Edit" asp-route-id="@Model.FirmaId" method="post">
+    <div class="mb-3">
+        <label class="form-label">Firma Adı</label>
+        <input asp-for="FirmaAdi" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Vergi No</label>
+        <input asp-for="VergiNo" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Şehir</label>
+        <input asp-for="Sehir" class="form-control" />
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="AktifMi" class="form-check-input" />
+        <label class="form-check-label">Aktif Mi</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
