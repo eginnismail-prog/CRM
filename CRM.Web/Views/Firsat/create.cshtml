@@ -1,0 +1,52 @@
+﻿@model CRM.DTO.FirsatDto
+
+@{
+    ViewData["Title"] = "Yeni Fırsat";
+}
+
+<h2>Yeni Fırsat Ekle</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Müşteri</label>
+        <select asp-for="MusteriId" class="form-control">
+            @foreach (var musteri in (List<CRM.DTO.MusteriDto>)ViewBag.Musteriler)
+            {
+                <option value="@musteri.MusteriId">@musteri.Ad @musteri.Soyad</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Fırsat Başlığı</label>
+        <input asp-for="FirsatBasligi" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Açıklama</label>
+        <input asp-for="Aciklama" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Tahmini Tutar</label>
+        <input asp-for="TahminiTutar" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Fırsat Durumu</label>
+        <select asp-for="FirsatDurumu" class="form-control">
+            <option value="Yeni">Yeni</option>
+            <option value="Görüşüldü">Görüşüldü</option>
+            <option value="Teklif">Teklif</option>
+            <option value="Kazanıldı">Kazanıldı</option>
+            <option value="Kaybedildi">Kaybedildi</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Sorumlu Kullanıcı</label>
+        <select asp-for="SorumluKullaniciId" class="form-control">
+            @foreach (var kullanici in (List<CRM.DTO.KullaniciDto>)ViewBag.Kullanicilar)
+            {
+                <option value="@kullanici.KullaniciId">@kullanici.Ad @kullanici.Soyad</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
