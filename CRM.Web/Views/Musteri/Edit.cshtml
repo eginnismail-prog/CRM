@@ -1,0 +1,36 @@
+﻿@model CRM.DTO.MusteriDto
+
+@{
+    ViewData["Title"] = "Müşteri Düzenle";
+}
+
+<h2>Müşteri Düzenle</h2>
+
+<form asp-action="Edit" asp-route-id="@Model.MusteriId" method="post">
+    <div class="mb-3">
+        <label class="form-label">Ad</label>
+        <input asp-for="Ad" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Soyad</label>
+        <input asp-for="Soyad" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Müşteri Durumu</label>
+        <select asp-for="MusteriDurumu" class="form-control">
+            <option value="Potansiyel">Potansiyel</option>
+            <option value="Aktif">Aktif</option>
+            <option value="Pasif">Pasif</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>
