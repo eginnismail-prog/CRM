@@ -22,7 +22,22 @@ builder.Services.AddScoped<IKategoriService, KategoriService>();
 
 builder.Services.AddScoped<IUrunRepository, UrunRepository>();
 builder.Services.AddScoped<IUrunService, UrunService>();
-
+builder.Services.AddScoped<IRolRepository, RolRepository>();
+builder.Services.AddScoped<IRolService, RolService>();
+builder.Services.AddScoped<IKullaniciRepository, KullaniciRepository>();
+builder.Services.AddScoped<IKullaniciService, KullaniciService>();
+builder.Services.AddScoped<IFirsatRepository, FirsatRepository>();
+builder.Services.AddScoped<IFirsatService, FirsatService>();
+builder.Services.AddScoped<IAktiviteRepository, AktiviteRepository>();
+builder.Services.AddScoped<IAktiviteService, AktiviteService>();
+builder.Services.AddScoped<ITeklifRepository, TeklifRepository>();
+builder.Services.AddScoped<ITeklifService, TeklifService>();
+builder.Services.AddScoped<ISatisRepository, SatisRepository>();
+builder.Services.AddScoped<ISatisService, SatisService>();
+builder.Services.AddScoped<IDestekTalebiRepository, DestekTalebiRepository>();
+builder.Services.AddScoped<IDestekTalebiService, DestekTalebiService>();
+builder.Services.AddScoped<INotRepository, NotRepository>();
+builder.Services.AddScoped<INotService, NotService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
