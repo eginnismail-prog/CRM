@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Satış Düzenle";
+    var satisTarihiStr = Model.SatisTarihi.ToString("yyyy-MM-dd");
 }
 
 <h2>Satış Düzenle</h2>
@@ -27,7 +28,7 @@
     </div>
     <div class="mb-3">
         <label class="form-label">Satış Tarihi</label>
-        <input asp-for="SatisTarihi" type="date" class="form-control" />
+        <input type="date" name="SatisTarihi" class="form-control" value="@satisTarihiStr" required />
     </div>
     <div class="mb-3">
         <label class="form-label">Toplam Tutar</label>

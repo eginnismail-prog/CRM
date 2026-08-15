@@ -52,5 +52,14 @@ namespace CRM.Web.Controllers
 
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var client = _httpClientFactory.CreateClient("CRMApi");
+            await client.DeleteAsync($"api/musteriler/{id}");
+
+            return RedirectToAction("Index");
+        }
     }
 }

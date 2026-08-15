@@ -4,11 +4,12 @@
     ViewData["Title"] = "Dashboard";
 }
 
-<h2>Dashboard</h2>
+<h2> SURYAPI </h2>
 
+<p class="content-subtitle">Müşteri ve satış yönetim sistemi</p>
 <div class="row mt-4">
     <div class="col-md-3">
-        <div class="card text-white bg-primary mb-3">
+        <div class="card card-suryapi-1 mb-3">
             <div class="card-body">
                 <h5 class="card-title">Toplam Müşteri</h5>
                 <p class="card-text fs-2">@Model.ToplamMusteriSayisi</p>
@@ -16,7 +17,7 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="card text-white bg-success mb-3">
+        <div class="card card-suryapi-2 mb-3">
             <div class="card-body">
                 <h5 class="card-title">Toplam Fırsat</h5>
                 <p class="card-text fs-2">@Model.ToplamFirsatSayisi</p>
@@ -24,7 +25,7 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="card text-white bg-warning mb-3">
+        <div class="card card-suryapi-3 mb-3">
             <div class="card-body">
                 <h5 class="card-title">Toplam Satış</h5>
                 <p class="card-text fs-2">@Model.ToplamSatisSayisi</p>
@@ -32,7 +33,7 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="card text-white bg-danger mb-3">
+        <div class="card card-suryapi-4 mb-3">
             <div class="card-body">
                 <h5 class="card-title">Toplam Satış Tutarı</h5>
                 <p class="card-text fs-2">@Model.ToplamSatisTutari.ToString("N2") ₺</p>
@@ -43,6 +44,6 @@
 
 <div class="mt-4">
     <a asp-controller="Musteri" asp-action="Index" class="btn btn-outline-primary">Müşterileri Görüntüle</a>
-    <a asp-controller="Firsat" asp-action="Index" class="btn btn-outline-success">Fırsatları Görüntüle</a>
-    <a asp-controller="Satis" asp-action="Index" class="btn btn-outline-warning">Satışları Görüntüle</a>
+    <a asp-controller="Firsat" asp-action="Index" class="btn btn-outline-primary">Fırsatları Görüntüle</a>
+    <a asp-controller="Satis" asp-action="Index" class="btn btn-outline-primary">Satışları Görüntüle</a>
 </div>

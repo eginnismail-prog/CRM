@@ -5,10 +5,10 @@
 }
 
 <h2>Teklif Listesi</h2>
-
+<input type="text" id="aramaKutusuTeklif" class="form-control mb-3" placeholder="Teklif no veya durum ile ara..." onkeyup="tabloyuFiltreleTeklif()" style="max-width: 400px;" />
 <a asp-action="Create" class="btn btn-primary mb-3">+ Yeni Teklif</a>
 
-<table class="table table-striped">
+<table class="table table-striped" id="teklifTablosu">
     <thead>
         <tr>
             <th>Teklif No</th>
@@ -33,3 +33,19 @@
         }
     </tbody>
 </table>
+<script>
+    function tabloyuFiltreleTeklif() {
+        var arananMetin = document.getElementById("aramaKutusuTeklif").value.toLowerCase();
+        var tablo = document.getElementById("teklifTablosu");
+        var satirlar = tablo.getElementsByTagName("tr");
+
+        for (var i = 1; i < satirlar.length; i++) {
+            var satir = satirlar[i];
+            var satirMetni = satir.textContent.toLowerCase();
+            satir.style.display = satirMetni.indexOf(arananMetin) > -1 ? "" : "none";
+        }
+        <form asp-action="Delete" asp-route-id="@teklif.TeklifId" method="post" style="display:inline;" onsubmit="return confirm('Bu teklifi silmek istediğinize emin misiniz?');">
+            <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+        </form>
+    }
+</script>

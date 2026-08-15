@@ -57,6 +57,15 @@ namespace CRM.Web.Controllers
             await client.PutAsJsonAsync($"api/urunler/{id}", urunDto);
 
             return RedirectToAction("Index");
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var client = _httpClientFactory.CreateClient("CRMApi");
+            await client.DeleteAsync($"api/urunler/{id}");
+
+            return RedirectToAction("Index");
         }
     }
 }

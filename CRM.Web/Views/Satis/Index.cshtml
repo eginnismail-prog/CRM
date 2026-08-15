@@ -5,10 +5,10 @@
 }
 
 <h2>Satış Listesi</h2>
-
+<input type="text" id="aramaKutusuSatis" class="form-control mb-3" placeholder="Ödeme durumu ile ara..." onkeyup="tabloyuFiltreleSatis()" style="max-width: 400px;" />
 <a asp-action="Create" class="btn btn-primary mb-3">+ Yeni Satış</a>
 
-<table class="table table-striped">
+<table class="table table-striped" id="satisTablosu">
     <thead>
         <tr>
             <th>Tarih</th>
@@ -31,3 +31,19 @@
         }
     </tbody>
 </table>
+<script>
+    function tabloyuFiltreleSatis() {
+        var arananMetin = document.getElementById("aramaKutusuSatis").value.toLowerCase();
+        var tablo = document.getElementById("satisTablosu");
+        var satirlar = tablo.getElementsByTagName("tr");
+
+        for (var i = 1; i < satirlar.length; i++) {
+            var satir = satirlar[i];
+            var satirMetni = satir.textContent.toLowerCase();
+            satir.style.display = satirMetni.indexOf(arananMetin) > -1 ? "" : "none";
+        }
+        <form asp-action="Delete" asp-route-id="@satis.SatisId" method="post" style="display:inline;" onsubmit="return confirm('Bu satışı silmek istediğinize emin misiniz?');">
+            <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+        </form>
+    }
+</script>

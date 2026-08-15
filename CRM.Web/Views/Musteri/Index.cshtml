@@ -5,10 +5,11 @@
 }
 
 <h2>Müşteri Listesi</h2>
+<input type="text" id="aramaKutusu" class="form-control mb-3" placeholder="Ad, soyad veya telefon ile ara..." onkeyup="tabloyuFiltrele()" style="max-width: 400px;" />
 
 <a asp-action="Create" class="btn btn-primary mb-3">+ Yeni Müşteri</a>
 
-<table class="table table-striped">
+<table class="table table-striped" id="musteriTablosu">
     <thead>
         <tr>
             <th>Ad</th>
@@ -30,8 +31,29 @@
                 <td>@musteri.MusteriDurumu</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@musteri.MusteriId" class="btn btn-sm btn-warning">Düzenle</a>
+                    <form asp-action="Delete" asp-route-id="@musteri.MusteriId" method="post" style="display:inline;" onsubmit="return confirm('Bu müşteriyi silmek istediğinize emin misiniz?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+                    </form>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+<script>
+    function tabloyuFiltrele() {
+        var arananMetin = document.getElementById("aramaKutusu").value.toLowerCase();
+        var tablo = document.getElementById("musteriTablosu");
+        var satirlar = tablo.getElementsByTagName("tr");
+
+        for (var i = 1; i < satirlar.length; i++) {
+            var satir = satirlar[i];
+            var satirMetni = satir.textContent.toLowerCase();
+
+            if (satirMetni.indexOf(arananMetin) > -1) {
+                satir.style.display = "";
+            } else {
+                satir.style.display = "none";
+            }
+        }
+    }
+</script>

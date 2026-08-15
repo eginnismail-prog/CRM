@@ -1,31 +1,242 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* =========================================
+   SURYAPI RENKLERİ
+   ========================================= */
+
+:root {
+    --suryapi-lacivert: #0C2D48;
+    --suryapi-lacivert-hover: #082138;
+    --suryapi-turuncu: #D97706;
+    --suryapi-turuncu-hover: #B45F04;
+    --suryapi-acik: #F5F7FA;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
+/* =========================================
+   BODY
+   ========================================= */
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--suryapi-acik);
+    background-image: url('/images/siluet-bg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* =========================================
+   FOCUS
+   ========================================= */
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* =========================================
+   FORM
+   ========================================= */
+
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+/* =========================================
+   NAVBAR (artik kullanilmiyor ama dursun)
+   ========================================= */
+
+.navbar-suryapi {
+    background-color: var(--suryapi-lacivert) !important;
+}
+
+    .navbar-suryapi .navbar-brand,
+    .navbar-suryapi .nav-link {
+        color: rgba(255, 255, 255, 0.90) !important;
+    }
+
+        .navbar-suryapi .nav-link:hover {
+            color: var(--suryapi-turuncu) !important;
+        }
+
+/* =========================================
+   GENEL PRIMARY BUTTON
+   ========================================= */
+
+.btn-primary {
+    background-color: var(--suryapi-lacivert) !important;
+    border-color: var(--suryapi-lacivert) !important;
+    color: #ffffff !important;
+}
+
+    .btn-primary:hover {
+        background-color: var(--suryapi-lacivert-hover) !important;
+        border-color: var(--suryapi-lacivert-hover) !important;
+        color: #ffffff !important;
+    }
+
+/* =========================================
+   WARNING BUTTON
+   ========================================= */
+
+.btn-warning {
+    background-color: var(--suryapi-turuncu) !important;
+    border-color: var(--suryapi-turuncu) !important;
+    color: #ffffff !important;
+}
+
+    .btn-warning:hover {
+        background-color: var(--suryapi-turuncu-hover) !important;
+        border-color: var(--suryapi-turuncu-hover) !important;
+        color: #ffffff !important;
+    }
+
+/* =========================================
+   OUTLINE PRIMARY
+   ========================================= */
+
+.btn-outline-primary {
+    color: var(--suryapi-lacivert) !important;
+    border-color: var(--suryapi-lacivert) !important;
+    background-color: transparent !important;
+}
+
+    .btn-outline-primary:hover {
+        color: #ffffff !important;
+        background-color: var(--suryapi-lacivert) !important;
+        border-color: var(--suryapi-lacivert) !important;
+    }
+
+/* =========================================
+   DASHBOARD KART RENKLERİ - KOYUDAN AÇIĞA
+   ========================================= */
+
+.card-suryapi-1 {
+    background-color: #0C2D48 !important;
+    color: #ffffff;
+}
+
+.card-suryapi-2 {
+    background-color: #14395A !important;
+    color: #ffffff;
+}
+
+.card-suryapi-3 {
+    background-color: #1D4A6E !important;
+    color: #ffffff;
+}
+
+.card-suryapi-4 {
+    background-color: #2C5F82 !important;
+    color: #ffffff;
+}
+
+/* =========================================
+   SIDEBAR
+   ========================================= */
+
+.sidebar-suryapi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: var(--suryapi-lacivert);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar-brand {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 10px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .sidebar-nav li {
+        margin: 0;
+    }
+
+        .sidebar-nav li a {
+    display: block;
+    padding: 14px 20px;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+            .sidebar-nav li a:hover {
+                background-color: rgba(255, 255, 255, 0.08);
+                color: var(--suryapi-turuncu);
+            }
+
+.content-suryapi {
+    margin-left: 220px;
+    padding: 24px 32px;
+    min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .sidebar-suryapi {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .content-suryapi {
+        margin-left: 0;
+        padding: 16px;
+    }
+
+    body {
+        background-size: auto 45%;
+        background-position: center bottom;
+    }
+}
+/* =========================================
+   İÇERİK BAŞLIKLARI
+   ========================================= */
+
+.content-suryapi h2 {
+    color: var(--suryapi-lacivert);
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+}
+.content-subtitle {
+    text-align: center;
+    color: var(--text-secondary, #6c757d);
+    font-size: 18px;
+    margin-bottom: 24px;
 }
